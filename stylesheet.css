@@ -108,6 +108,10 @@ header {
   text-align: center;
 }
 
+.btn:hover {
+  opacity: 1;
+}
+
 .btn-shop {
   border: 1.5px solid #eee;
   font-weight: bold;
@@ -206,15 +210,10 @@ footer {
 
 .txt-contents {
   width: 80%;
-  display: inline-block;
-  margin-top: 20px;
-  font-size: 20px;
-  color: #b3aeb5;
   background-color:gray;
-  height:40px;
-  padding-top:15px;
 }
 
-.text-contents a:hover {
-  background-color:black;
+.text-contents:hover {
+  opacity: 1;
+  text-decoration: underline;
 }
